@@ -15,7 +15,7 @@ script: tox
 # travis_pypi_setup.py script to finish PyPI deployment setup
 deploy:
   provider: pypi
-  server: https://testpypi.python.org/pypi
+  server: https://dummytestpypi.python.org/pypi
   distributions: sdist bdist_wheel
   user: rtechnology
   password:
